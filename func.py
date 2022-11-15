@@ -1,3 +1,4 @@
+#WRITING SOME CODE IN PYTHON USING DIFFERENT FUNCTIONS!
 #CHECK PRIME
 def isprime(n):
     prime_flag = 0
