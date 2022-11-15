@@ -1,4 +1,10 @@
-#WRITING SOME CODE IN PYTHON USING DIFFERENT FUNCTIONS!
+# WRITING SOME CODE IN PYTHON USING DIFFERENT FUNCTIONS! 
+
+#Following coding standards of "GOOGLE".
+# Starting Date / time: 7/11/22 12:00AM  Ending Date / time: 15/11/22 5:26PM 
+# Total time given: 2 hrs
+#Total line of code: 130
+#Number of functions: 12
 #CHECK PRIME
 def isprime(n):
     prime_flag = 0
@@ -140,52 +146,5 @@ def subarray(arr):
    return sub_arr 
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-def answer(t):
-    
-    #s1=input()
-    #s2=input()
-    #n = int(input())
-    #n1 = int(input())
-    #n2 = input()
-    #s1,s2=input().split()
-    a,b,x,y,n=map(int,input().split())
-    #n,k=map(int,input().split())
-    #d=defaultdict(list)
-    #s1,s2=input().split()
-    #bool=True'''
-    #lst1 = list(map(int,input().split()))
-    #lst2 = list(map(int,input().split()))
-    #l2=list(map(int,input().split()))'''
-    #sumof = sum(lst1)
-    #y = max(x.values())
-    mini = min(a,b)
-    ax = a-x
-    by = b-y 
-    if a==b and ax>=n:
-        if ax>=n:
-            print(b*(a-n))
-        else:
-            na =  n -ax
-            print((a-na)*(a-ax))
-    elif a==b and by>=n:
-        if by>=n:
-            print(a*(b-n))
-        else:
-            na =  n - by
-            print((a-na)*(a-ax))
-    elif mini==a:
-        if ax>=n:
-            print(b*(a-n))
-        else:
-            nx = n - ax
-            print((b-nx)*(a-ax))
-    else:
-        if by>=n:
-            print(a*(b-n))
-        else:
-            ny = n-by
-            print((a-ny)*(b-by))
 
    
-for t in range(int(input())):
-    print(answer(t))
