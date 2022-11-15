@@ -1,2 +1,2 @@
-# Python_Functions
-Contains some basic python functions!
+# Python_&_Java_Functions
+Contains some basic python and java functions!
